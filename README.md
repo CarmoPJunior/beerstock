@@ -18,6 +18,3 @@ https://people-api-aula-dio.herokuapp.com/api/v1/people
 ```
 
 ---
-### Link Heroku -  Documentação Swagger:
-
-https://people-api-aula-dio.herokuapp.com/swagger-ui.html
