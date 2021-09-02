@@ -11,7 +11,6 @@ import org.dio.aula.beerstock.mapper.BeerMapper;
 import org.dio.aula.beerstock.repository.BeerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -20,7 +19,7 @@ import java.util.stream.Collectors;
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class BeerService {
 
-    private final BeerRepository beerRepository;
+    private BeerRepository beerRepository;
     private final BeerMapper beerMapper = BeerMapper.INSTANCE;
 
     public BeerDTO createBeer(BeerDTO beerDTO) throws BeerAlreadyRegisteredException {
